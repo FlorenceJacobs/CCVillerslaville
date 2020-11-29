@@ -10,7 +10,6 @@ html {
 *body{
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    margin: 0px auto;
 }
 
 h1 {
@@ -55,7 +54,6 @@ nav a {
 }
 
 .navbar-nav li {
-    display:inline-block;
     border: 1px solid white;
     padding-inline-end: .3rem;
     padding-inline-start: .3rem;
@@ -68,6 +66,9 @@ nav a {
 .socialNet {
     border-top: white solid 3px;
     margin-left: -1.5rem;
+    & li {
+    background-color: transparent;
+    }
 }
 
 .socialNet li {
@@ -126,34 +127,34 @@ nav a {
 }
 
 .activite {
-    background: url("../img/arriere_plan_activites.png");
+    background: url("../img/arriere_plan_activites.jpg");
 }
 
 .section_titre {
     display: block;
     border-block-end: #563bae solid 7px;
-    margin-inline-start: 18.5%;
-    margin-inline-end: 60%;
-    margin-block-start: 4rem;
-    block-size: 4rem;
 }
 
 .activites_container {
-    display: flex;
     background:rgba(255, 255, 255, 0.56);
-    height: 12rem;
+    min-height: 12rem;
+}
+.activites_mobile {
+    writing-mode: vertical-lr;
+    & h2{
+        line-height: .1rem;
+    }
 }
 
 .activites_detail {
     font-size: 110%;
     transform: rotate(-50deg) translate(70px);
-    line-height: .1rem;
     border-block-end: #563bae solid 2px;
     align-self: flex-end;
 }
 
 .citation_container {
-    background: url("../img/arriere_plan_citation.png");
+    background: url("../img/arriere_plan_citation.jpg");
     background-size: contain;
     height: 27rem;
 }
