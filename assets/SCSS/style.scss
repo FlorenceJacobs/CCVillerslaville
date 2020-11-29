@@ -1,0 +1,225 @@
+*,
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0px auto;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 250%;
+    color: #1c175a;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 180%;
+    color: #1c175a;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-image: url("../img/arriere_plan_menu.jpg");
+}
+
+.navbar-brand {
+    background-color: white;
+    height: 100%;
+}
+
+.logo {
+width: 11rem;
+}
+
+nav a {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav li {
+    display:inline-block;
+    border: 1px solid white;
+    padding-inline-end: .3rem;
+    padding-inline-start: .3rem;
+    margin-right: 1rem;
+    background-color: rgb(20, 2, 34);
+    &:first-child{
+        margin-inline-start: 1rem;
+    }
+}
+.socialNet {
+    border-top: white solid 3px;
+    margin-left: -1.5rem;
+}
+
+.socialNet li {
+    border: 2px solid white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    padding-inline-start: .2rem;
+    color: white;
+    margin-inline-end: .5rem;
+}
+
+.titreSection {
+    border-block-end: #563bae solid 7px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 10px;
+    left: 0%;
+    z-index: 10;
+    padding-top: .5rem;
+    padding-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.692);
+    & h5 {
+        font-family: 'Amatic SC', cursive;
+        color: #1c175a;
+        font-weight: bolder;
+    }
+}
+.carousel-item img {
+    height : 70vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.fas {
+    background-image: url("../img/arriere_plan_menu.jpg");
+    background-position: 90%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 400%;
+    background-color: white;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width : 10%;
+    opacity: 1;
+}
+
+
+.carousel-item {
+    border: #563bae solid 2px;
+}
+
+.activite {
+    background: url("../img/arriere_plan_activites.png");
+}
+
+.section_titre {
+    display: block;
+    border-block-end: #563bae solid 7px;
+    margin-inline-start: 18.5%;
+    margin-inline-end: 60%;
+    margin-block-start: 4rem;
+    block-size: 4rem;
+}
+
+.activites_container {
+    display: flex;
+    background:rgba(255, 255, 255, 0.56);
+    height: 12rem;
+}
+
+.activites_detail {
+    font-size: 110%;
+    transform: rotate(-50deg) translate(70px);
+    line-height: .1rem;
+    border-block-end: #563bae solid 2px;
+    align-self: flex-end;
+}
+
+.citation_container {
+    background: url("../img/arriere_plan_citation.png");
+    background-size: contain;
+    height: 27rem;
+}
+
+.citation_texte {
+    background:rgba(255, 255, 255, 0.8);
+    border: #563bae solid 2px;
+    inline-size: 20rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 105%;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.partenaires_container {
+    background-color: #563bae;
+    min-height: 8rem;
+}
+
+.partenaires_flex_container {
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.partenaires_container li {
+display:inline-block;
+list-style: none;
+border: 1px solid white;
+padding-inline-end: 1rem;
+padding-inline-start: 1rem;
+margin-right: .9rem;
+margin-top: 1rem;
+color: white;
+background:rgba(255, 255, 255, 0.56);
+}
+
+h2.h4{
+    font-weight: bolder;
+    padding-block-start: .5rem;
+}
+.footer_container {
+    background-color: rgb(20, 2, 34);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.bouton_reserve {
+    background-color: rgb(20, 2, 34);
+    position: fixed;
+    transform: rotate(-90deg);
+    border: 1px solid white;
+    line-height: 1rem;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    right: 0px;
+    z-index: 1;
+}
+.bouton_reserve h1 {
+    color: white;
+    font-size: 130%;
+}
